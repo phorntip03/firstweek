@@ -18,3 +18,6 @@ ctrl + W ลบหน้าโปรแกรม
 laragon คือแบบจำลองการรันบนเว็บเซิฟ์เวอร์
 div. คือการเรียกใช้ div .คือคลาสหลัง.คือชื่อคลาส
 p..*5คือการเรียกใช้แท็ก p 5 ครั้ง
+php artisan migrate:refresh รีไฟล์ดาต้า
+php artisan make:model Country -m สร้างไฟล์ดาต้า
+
