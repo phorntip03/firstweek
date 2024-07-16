@@ -21,4 +21,5 @@ p..*5คือการเรียกใช้แท็ก p 5 ครั้ง
 php artisan migrate:refresh รีไฟล์ดาต้า
 php artisan make:model Country -m สร้างไฟล์ดาต้า
  php artisan migrate:refresh --seed รีไฟล์ซีด
+ php artisan make:seeder RegionSeeder สร้างไฟล์ในดาต้าเบสซีดเดอร์
 
