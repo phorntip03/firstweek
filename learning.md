@@ -22,4 +22,7 @@ php artisan migrate:refresh รีไฟล์ดาต้า
 php artisan make:model Country -m สร้างไฟล์ดาต้า
  php artisan migrate:refresh --seed รีไฟล์ซีด
  php artisan make:seeder RegionSeeder สร้างไฟล์ในดาต้าเบสซีดเดอร์
+ php artisan migrate เข้าเรียกไฟล์ในลาลาเวล
+ App\Models\Teacher::all();    ตรวจสอบไฟล์ในดาต้าเบส
+  php artisan serve เปิดเซิฟ
 
