@@ -26,5 +26,6 @@ php artisan make:model Country -m สร้างไฟล์ดาต้า
  App\Models\Teacher::all();    ตรวจสอบไฟล์ในดาต้าเบส
   php artisan serve เปิดเซิฟ
 composer install อัฟไฟล์ในกิตฮับ
-
+php artisan make:controller Api\TeacherController --resource สร้างcontroller
+php artisan route:list -v ตรวจสอบroute
 
