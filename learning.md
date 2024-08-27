@@ -25,4 +25,6 @@ php artisan make:model Country -m สร้างไฟล์ดาต้า
  php artisan migrate เข้าเรียกไฟล์ในลาลาเวล
  App\Models\Teacher::all();    ตรวจสอบไฟล์ในดาต้าเบส
   php artisan serve เปิดเซิฟ
+composer install อัฟไฟล์ในกิตฮับ
+
 
