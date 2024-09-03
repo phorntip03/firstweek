@@ -23,9 +23,12 @@ php artisan make:model Country -m สร้างไฟล์ดาต้า
  php artisan migrate:refresh --seed รีไฟล์ซีด
  php artisan make:seeder RegionSeeder สร้างไฟล์ในดาต้าเบสซีดเดอร์
  php artisan migrate เข้าเรียกไฟล์ในลาลาเวล
+  composer require laravel/sanctum ติดตั้งแพ็คเก็ท
+  php artisan vendor:publish --tag=laravel-assets --ansi --force คำสั่งจัดการแพ็คเก็ท
  App\Models\Teacher::all();    ตรวจสอบไฟล์ในดาต้าเบส
   php artisan serve เปิดเซิฟ
 composer install อัฟไฟล์ในกิตฮับ
 php artisan make:controller Api\TeacherController --resource สร้างcontroller
 php artisan route:list -v ตรวจสอบroute
+
 
