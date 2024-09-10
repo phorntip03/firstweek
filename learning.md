@@ -30,5 +30,12 @@ php artisan make:model Country -m สร้างไฟล์ดาต้า
 composer install อัฟไฟล์ในกิตฮับ
 php artisan make:controller Api\TeacherController --resource สร้างcontroller
 php artisan route:list -v ตรวจสอบroute
+cd\กลับทั้งหมด
+cd.. ถอยกลับทีละขั้น
+cd ตามชื่อ folder เข้าfolder นั้น
+Dir แสดงfolderตำแหน่งที่มี
+D:เปลี่ยนไดร์ฟ
+E:เปลี่ยนไดร์ฟ
+C:เปลี่ยนไดร์ฟ
 
 
