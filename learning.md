@@ -37,5 +37,8 @@ Dir แสดงfolderตำแหน่งที่มี
 D:เปลี่ยนไดร์ฟ
 E:เปลี่ยนไดร์ฟ
 C:เปลี่ยนไดร์ฟ
+composer install ติดตั้ง vendor
+php artisan --version เช็คเวอร์ชั่น
+
 
 
