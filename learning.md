@@ -39,6 +39,8 @@ E:เปลี่ยนไดร์ฟ
 C:เปลี่ยนไดร์ฟ
 composer install ติดตั้ง vendor
 php artisan --version เช็คเวอร์ชั่น
-
+ composer require laravel/Jetstream 
+ php artisan jetstream:install livewire
+ php artisan vendor:publish --tag=jetstream-views 
 
 
