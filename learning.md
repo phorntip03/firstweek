@@ -42,5 +42,6 @@ php artisan --version เช็คเวอร์ชั่น
  composer require laravel/Jetstream 
  php artisan jetstream:install livewire
  php artisan vendor:publish --tag=jetstream-views 
+ php artisan storage:link สร้างสโตรเลทเวลามันหาย
 
 
